@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/logo.svg" alt="logo">
+        <nav class="header__nav">
+            <a class="header__nav-link" href="#contact">Контакти</a>
+            <a class="header__nav-link" href="#">Головна</a>
+            <a class="header__nav-link" href="#our-work">З чим ми працюємо</a>
+            <button class="header__nav-button">ПІДТРИМАТИ ФОНД</button> 
+        </nav>
+    </header>
+    <article class="main">
+        <div class="main__body">
+            <h1 class="main__title">Фонд підтримки постраждалих від війни</h1>
+            <p class="main__subtitle">Ми хочемо допомогти кожному, хто постраждав під час війни</p>
+            <button class="main__button">ПІДТРИМАТИ ФОНД</button>
+        </div> 
+    </article>
+    <article class="about">
+        <div class="about__body">
+            <h2 class="about__title">Ми – фонд підтримки постраждалих від війни</h2>
+            <p class="about__subtitle">Наша мета – психологічна та гуманітарна допомога українцям</p>
+            <p class="about__undertext">Кожен, хто звернеться, отримає допомогу, яка у наших силах</p>
+        </div>
+    </article>
+    <article id="our-work" class="our-work">
+        <section class="our-work__work">
+            <div class="our-work__work-info">
+                <h3 class="our-work__work-title">Реабілітаційний центр</h3>
+                <p class="our-work__work-text">Ми допомагаємо людям, які постраждали знайти правильне лікування. У нашому фонді є чотири напрями: фізичної та реабілітаційної медицини, терапевтичне, неврологічне та хірургічне. Ми маємо заклади-партнери, де швидко та якісно можуть надати допомогу.</p>
+            </div>
+            <img class="our-work__work-image" src="./assets/work1.png" alt="work1">
+        </section>
+        <section class="our-work__work">
+            <div class="our-work__work-info">
+                <h3 class="our-work__work-title">Робота з дітьми</h3>
+                <p class="our-work__work-text">Діти – найвразливіша частина суспільства, і їм особливо потрібна підтримка дорослих. Тому наш фонд збирає речі для дітей, проводить літні й зимові табори, майстер-класи та за потреби – дитячих прсихотерапевтів.</p>
+            </div>
+            <img class="our-work__work-image" src="./assets/work2.png" alt="work2">
+        </section>
+        <button class="our-work__button">Дізнатися більше</button>
+    </article>
+    <article class="smile">
+        <section class="smile__main">
+            <p class="smail__text">
+                Наша місія – щоб кожен українець мав можливість отримати допомогу й не залишився наодинці зі своїми проблемами
+            </p>
+            <img class="smail__kids" src="./assets/smile-kids.png" alt="kids">
+            <img class="smail__bg" src="./assets/smile-bg.png" alt="bg">
+        </section>
+    </article>
+    <article class="support">
+        <section class="support__main">
+            <h3 class="support__title">Підтримайте нашу роботу!</h3>
+            <p class="support__subtitle">Усі ваші донати йдуть саме на роботу фонду, заробітні плати ми виплачуємо з коштів грантодавців</p>
+            <div class="support__goal">
+                <p class="support__goal-title">Наша мета 10 000 000 гривень!</p>
+                <div class="support__goal-number">
+                    <span class="support__goal-num">00</span>
+                    <span class="support__goal-num middle">230</span>
+                    <span class="support__goal-num">025</span>
+                </div>
+            </div>
+            <button class="support__button">Дізнатися більше</button>
+        </section>
+    </article>
+    <footer class="footer">
+        <section id="contact" class="footer__contact">
+            <h2 class="footer__contact-title">Контакти</h2>
+            <div class="footer__contact-info">
+                <div class="footer__contact-phone">
+                    <img class="footer__contact-phone-icon" src="./assets/Phone.png" alt="phone">
+                    <p class="footer__contact-phone-text">Якщо у вас виникають питання – телефонуйте за номером <b>0-987-654-321</b></p>
+                </div>
+                <div class="footer__contact-society">
+                    <div class="footer__contact-society-icons">
+                        <img class="footer__contact-society-icon" src="./assets/TelegramLogo.png" alt="telegram">
+                        <img class="footer__contact-society-icon" src="./assets/WhatsappLogo.png" alt="Whatsapp">
+                    </div>
+                    <p class="footer__contact-society-text">Або пишіть нам у чат-бот</p>
+                </div>
+            </div>
+        </section>
+        <section class="footer__form">
+            <img class="footer__form-image" src="./assets/email.png" alt="email">
+            <form class="footer__form-body" action="">
+                <p class="footer__form-title">Щоб дізнаватися усі новини фестивалю, підпишися на нашу розсилку</p>
+                <input class="footer__form-input" type="text" name="name" placeholder="ім'я">
+                <input class="footer__form-input" type="email" name="email" placeholder="Емайл">
+                <input class="footer__form-button" type="submit" placeholder="Підписатися" value="Підписатися">
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
